@@ -1,0 +1,115 @@
+.sign-up{
+    display: flex;
+}
+.h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #567aec;
+}
+.side-img{
+    width: 60%;
+}
+.sign-up img{
+    width: 100%;
+}
+
+.sign-up-content, .sign-in-content{
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    width: 36%;
+    margin: 0 auto;
+    padding: 2rem;
+    align-self: center;
+}
+
+.frm{
+    margin-top: 1rem;
+}
+
+.sign-in-content input, .sign-up-content input{
+    font-size: 14px;
+    padding: 10px 16px;
+    background-color: white;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #e9e8e8;
+    margin: 10px 0;
+}
+.sign-up-content input:focus{
+    outline: #c2e6f4 4px solid;
+    border-color: #719ECE;
+}
+
+.pass{
+display: flex;
+justify-content: space-between;
+}
+
+.password{
+    width: 49%;
+}
+
+
+#phone{
+    width: 100%;
+   border-radius: unset;
+   position: relative;
+   z-index: 1;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-num{
+    font-size: 14px;
+    display: inline-block;
+    background:#567aec;
+    color: white;
+    font-weight: 600;
+    padding: 8px 10px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    width: 45px;
+}
+
+
+.btn-otp{
+    font-size: 12px;
+    background: #567aec;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    height: 38px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    width: 106px;
+}
+
+.frm .btn{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .sign-up{
+        flex-direction: column;
+    }
+    .side-img {
+        width: 100%;
+    }
+    .sign-up-content,.sign-in-content{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .sign-up-content,.sign-in-content{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_18">
+   <g transform="matrix(9.765625,0,0,9.765625,0,0) " id="svg_6">
+    <g id="svg_4">
+     <path id="svg_7" fill="#4B7CF3" class="active-path" d="m49.96011,52.72l3,0l0,6l-3,0l0,-6z"/>
+     <path id="svg_8" fill="#4B7CF3" class="active-path" d="m44.96011,52.72l3,0l0,6l-3,0l0,-6z"/>
+     <path id="svg_9" fill="#4B7CF3" class="active-path" d="m30.96011,6.72a8,8 0 1 0 8,8a8.011,8.011 0 0 0 -8,-8zm0,7a3,3 0 0 1 1,5.82l0,1.18l-2,0l0,-1.18a3.01,3.01 0 0 1 -2,-2.82l2,0a1,1 0 1 0 1,-1a3,3 0 0 1 -1,-5.82l0,-1.18l2,0l0,1.18a3.01,3.01 0 0 1 2,2.82l-2,0a1,1 0 1 0 -1,1z"/>
+     <path id="svg_10" fill="#4B7CF3" class="active-path" d="m15.96011,45.72l0,-13a1,1 0 0 1 1,-1l5,0a3,3 0 0 0 0,-6l-7,0a3.009,3.009 0 0 0 -3,3l0,4l1.91,20l20.57,0l2.8,-4l-18.28,0a3.009,3.009 0 0 1 -3,-3z"/>
+     <path id="svg_11" fill="#4B7CF3" class="active-path" d="m13.96011,54.72l20,0l0,4l-20,0l0,-4z"/>
+     <path id="svg_12" fill="#4B7CF3" class="active-path" d="m37.96011,36.68l0,-8.97a4,4 0 0 1 3.99,-3.99a3.927,3.927 0 0 1 2.01,0.56l0,-20.56a1,1 0 0 0 -1,-1l-24,0a1,1 0 0 0 -1,1l0,20l4,0a5,5 0 0 1 0,10l-4,0l0,7l18,0l0,2l-18,0l0,3a1,1 0 0 0 1,1l22.15,0l-2.74,-7.68a7.1,7.1 0 0 1 -0.41,-2.36zm-7,-11.96a10,10 0 1 1 10,-10a10.016,10.016 0 0 1 -10,10z"/>
+     <path id="svg_13" fill="#4B7CF3" class="active-path" d="m54.96011,52.72l3,0l0,6l-3,0l0,-6z"/>
+     <path id="svg_14" fill="#4B7CF3" class="active-path" d="m65.96011,30.72a2.006,2.006 0 0 0 -2,2l0,4l-2,0l0,-5a2.006,2.006 0 0 0 -2,-2a1.868,1.868 0 0 0 -0.64,0.11a1.8,1.8 0 0 0 -0.77,0.48a1.983,1.983 0 0 0 -0.59,1.41l0,4l-2,0l0,-5a2.006,2.006 0 0 0 -2,-2a2.015,2.015 0 0 0 -2,2l0,5l-2,0l0,-25a2.006,2.006 0 0 0 -2,-2a2.015,2.015 0 0 0 -2,2l0,25l-2,0l0,-8a1.983,1.983 0 0 0 -0.59,-1.41a1.994,1.994 0 0 0 -3.41,1.4l0,8.97a5.176,5.176 0 0 0 0.29,1.69l4.41,12.35l18.6,0l4.41,-12.36a5.073,5.073 0 0 0 0.29,-1.68l0,-3.96a2.015,2.015 0 0 0 -2,-2z"/>
+     <path id="svg_15" fill="#4B7CF3" class="active-path" d="m59.96011,52.72l3,0l0,6l-3,0l0,-6z"/>
+     <path id="svg_16" fill="#4B7CF3" class="active-path" d="m69.66711,9.013l-4,-4l-1.414,1.414l2.293,2.293l-11.586,0l0,2l11.586,0l-2.293,2.293l1.414,1.414l4,-4a1,1 0 0 0 0,-1.414z"/>
+     <path id="svg_17" fill="#4B7CF3" class="active-path" d="m59.66711,14.427l-1.414,-1.414l-4,4a1,1 0 0 0 0,1.414l4,4l1.414,-1.414l-2.293,-2.293l11.586,0l0,-2l-11.586,0l2.293,-2.293z"/>
+    </g>
+   </g>
+  </g>
+  <rect id="svg_19" height="129" width="65" y="78.5" x="270" stroke-width="1.5" fill="#4B7CF3"/>
+  <text transform="matrix(5.898601473440635,0,0,4.743685751336216,-1416.7425395437617,-552.7450977499659) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_21" y="155.39193" x="285.52579" stroke-width="0" fill="#fff">₹</text>
+ </g>
+</svg>

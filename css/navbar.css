@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h5{
+    color: #808599;
+    font-weight: 500;   
+}
+
+.font-weight{
+    font-weight: 700;
+    font-size: 15px;
+    color: #515978;
+}
+.font-size-12{
+    font-size: 12px;
+    color: #424242;
+}
+
+.list-products{
+    position: absolute;
+    right: -40rem;
+    top: -25rem;
+    margin-top: 1rem;
+    background-color: white;
+    z-index: 2;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+.badge{
+    color: white;
+    background: #12cf12;
+    font-size: 10px;
+    padding: 4px 5px 2px 5px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.list-product-item{
+    border-right: 1px solid #f1f1f1;
+    padding: 15px;
+    width: 300px;
+}
+
+.list-flex{
+    display: flex;
+    margin: 1.5rem 0;
+}
+.list-flex img{
+    width: 2rem;
+}
+
+
+
+.flex{
+    display: flex;
+    width: 900px;
+}
+.hover-products{
+    position: relative;
+}
+
+.list-products.product-toogel{
+    display: block;
+}
+
+.hr-line{
+    width: 15rem;
+    height: 8px;
+    background: #567aec;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-size: 2.5rem;
+}
+.h2{
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 1.5rem auto;
+}
+
+.p {
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Navbar */
+
+header {
+    display: grid;
+    grid-template-columns: 0px auto;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 65px;
+}
+
+#hamburger {
+    display: none;
+}
+
+.nav-bar {
+    margin-right: 5rem;
+    display: flex;
+    align-self: end;
+    transition:top 1s;
+}
+
+.nav-bar > ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+}
+.list-menu{
+    visibility: hidden;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    display: block;
+    padding: 0px 23px;
+    color: #567aec;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-bar.navToggel {
+    top: 0;
+}
+
+.btn {
+    background: #567aec;
+    font-size: 16px;
+    font-weight: initial;
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    bottom: 6px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1200px) {
+/* Navbar */
+
+    header {
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 3.5rem;
+    }
+    .nav-bar{
+        margin-right: 3.5rem;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+/* Navbar */
+    header {
+        padding: unset;
+    }
+
+    .logo {
+        margin-left: 1.5rem;
+        padding: 10px;
+    }
+
+    #hamburger {
+        display: block;
+        align-self: center;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        justify-self: end;
+    }
+
+    .fa-bars {
+        font-size: 2rem;
+    }
+
+    .line {
+        width: 4rem;
+        height: 1rem;
+        border-top: 4px solid white;
+        cursor: pointer;
+    }
+ 
+    .nav-bar > ul {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        /* height: 0; */
+        position: absolute;
+        width: 100vw;
+        margin-right: unset;
+        top: -70rem;
+        z-index: 2;
+    }
+    .nav-bar ul li:not(.list-flex){
+        border: 1px solid rgb(243 243 243);
+        background-color: white;
+    }
+    .nav-bar a{
+        padding: 12px 23px;
+    }
+    .nav-btn{
+        border: 1px solid rgb(243 243 243);
+        background-color: white;
+        padding: 10px;
+
+    }
+    .btn{
+        position:unset;
+    }
+    .list-menu{
+        display: flex;
+        visibility: visible;
+        justify-content: space-between;
+        background-color: #e7e7e7;
+    }
+    .list-menu a{
+        font-size: 24px;
+    }
+    .fa{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+  
+/* product */
+
+.list-products{
+    position: unset;
+    box-shadow: none;
+    display: none;
+}
+.flex{
+    flex-direction: column;
+    width: unset;
+}
+.list-product-item{
+    width: unset;
+    border-bottom: 1px solid #f1f1f1;;
+}
+.list-flex {
+    margin: unset;
+    margin-top: 1rem;
+}
+.mt-1{
+    margin-top:7px;
+}
+    
+
+}
+
+@media screen and (max-width:800px) { 
+ .h1{
+    font-size: 1.5rem;
+ }
+     
+}
+
+@media screen and (min-width:1000px) {
+    .hover-products:hover .list-products{
+        top:unset;
+        }
+}
